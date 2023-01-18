@@ -102,7 +102,7 @@ docker build --pull --rm -f "Dockerfile" -t facemerecognition:latest "."
 ```
 - Run image
 ```
-docker run facemerecognition
+docker run --network host facemerecognition
 ```
 ## Request license
 Subscribe free trial at our [Subscription Page](https://sdk.faceme.tw/#contact-us)  
